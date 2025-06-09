@@ -44,7 +44,7 @@ Answer this question:
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role": "system", "content": "Answer based on the property data provided."},
+            {"role": "system", "content": "You are a helpful assistant that answers questions about vacation rental properties using the provided context. Answer the question using only the context below. If it's not in the context, say I dont know, ask me about this property!"},
             {"role": "user", "content": prompt}
         ],
         temperature=0.3

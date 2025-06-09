@@ -1,0 +1,442 @@
+[ 
+{ 
+"unit_id":220,
+"amenity_id":3,
+"name":"Balcony",
+"description":"No",
+"sort_order":23
+},
+{ 
+"unit_id":220,
+"amenity_id":4,
+"name":"BBQ Grill",
+"description":"Yes",
+"sort_order":27
+},
+{ 
+"unit_id":220,
+"amenity_id":5,
+"name":"Beach Access",
+"description":"Yes: 1 Block Away",
+"sort_order":1
+},
+{ 
+"unit_id":220,
+"amenity_id":6,
+"name":"Beach Distance",
+"description":"1 Block Away",
+"sort_order":2
+},
+{ 
+"unit_id":220,
+"amenity_id":7,
+"name":"Bed Size 1st/Master",
+"description":"King - En Suite",
+"sort_order":7
+},
+{ 
+"unit_id":220,
+"amenity_id":8,
+"name":"Bed Size 2nd Rm",
+"description":"Queen - Shared Bath",
+"sort_order":8
+},
+{ 
+"unit_id":220,
+"amenity_id":9,
+"name":"Bed Size 3rd Rm",
+"description":"King - Shared Bath",
+"sort_order":9
+},
+{ 
+"unit_id":220,
+"amenity_id":10,
+"name":"Bed Size 4th Rm",
+"description":"Full/Full Bunk",
+"sort_order":10
+},
+{ 
+"unit_id":220,
+"amenity_id":14,
+"name":"Ceiling Fans",
+"description":"Yes",
+"sort_order":36
+},
+{ 
+"unit_id":220,
+"amenity_id":17,
+"name":"Elevator",
+"description":"No",
+"sort_order":25
+},
+{ 
+"unit_id":220,
+"amenity_id":21,
+"name":"Floor No.",
+"description":"Ground Level",
+"sort_order":22
+},
+{ 
+"unit_id":220,
+"amenity_id":22,
+"name":"Internet Access",
+"description":"Yes",
+"sort_order":5
+},
+{ 
+"unit_id":220,
+"amenity_id":23,
+"name":"Micro/Dishwash/Disp.",
+"description":"Yes",
+"sort_order":32
+},
+{ 
+"unit_id":220,
+"amenity_id":24,
+"name":"Parking",
+"description":"2-4 Cars Max",
+"sort_order":21
+},
+{ 
+"unit_id":220,
+"amenity_id":26,
+"name":"Patio",
+"description":"Yes",
+"sort_order":26
+},
+{ 
+"unit_id":220,
+"amenity_id":28,
+"name":"Square Footage, Est.",
+"description":"1900 Square Feet",
+"sort_order":20
+},
+{ 
+"unit_id":220,
+"amenity_id":30,
+"name":"Stove/Oven Elec/Gas",
+"description":"Yes",
+"sort_order":31
+},
+{ 
+"unit_id":220,
+"amenity_id":31,
+"name":"TV Cable/Satellite",
+"description":"Yes",
+"sort_order":6
+},
+{ 
+"unit_id":220,
+"amenity_id":33,
+"name":"View",
+"description":"Pool/Landscaping",
+"sort_order":3
+},
+{ 
+"unit_id":220,
+"amenity_id":34,
+"name":"Washer/Dryer",
+"description":"Yes",
+"sort_order":29
+},
+{ 
+"unit_id":220,
+"amenity_id":35,
+"name":"Lanai",
+"description":"Yes - Covered",
+"sort_order":24
+},
+{ 
+"unit_id":220,
+"amenity_id":36,
+"name":"Full Kitchen",
+"description":"Yes",
+"sort_order":28
+},
+{ 
+"unit_id":220,
+"amenity_id":37,
+"name":"Microwave",
+"description":"Yes",
+"sort_order":33
+},
+{ 
+"unit_id":220,
+"amenity_id":38,
+"name":"Coffee Maker",
+"description":"Yes",
+"sort_order":34
+},
+{ 
+"unit_id":220,
+"amenity_id":39,
+"name":"Refrigerator",
+"description":"Yes",
+"sort_order":30
+},
+{ 
+"unit_id":220,
+"amenity_id":40,
+"name":"Mini Fridge",
+"description":"Yes",
+"sort_order":35
+},
+{ 
+"unit_id":220,
+"amenity_id":41,
+"name":"Pet Friendly",
+"description":"Yes",
+"sort_order":4
+},
+{ 
+"unit_id":220,
+"amenity_id":55,
+"name":"Pool View",
+"description":"Yes",
+"sort_order":39
+},
+{ 
+"unit_id":220,
+"amenity_id":56,
+"name":"Bathroom",
+"description":"2 Full + 1 Half Bath",
+"sort_order":40
+},
+{ 
+"unit_id":220,
+"amenity_id":59,
+"name":"Video Game Console",
+"description":"Yes",
+"sort_order":42
+},
+{ 
+"unit_id":220,
+"amenity_id":61,
+"name":"Free WiFi",
+"description":"Yes",
+"sort_order":44
+},
+{ 
+"unit_id":220,
+"amenity_id":67,
+"name":"Beach Equipment",
+"description":"Yes",
+"sort_order":50
+},
+{ 
+"unit_id":221,
+"amenity_id":3,
+"name":"Balcony",
+"description":"Yes - Multiple",
+"sort_order":23
+},
+{ 
+"unit_id":221,
+"amenity_id":4,
+"name":"BBQ Grill",
+"description":"Yes",
+"sort_order":27
+},
+{ 
+"unit_id":221,
+"amenity_id":5,
+"name":"Beach Access",
+"description":"Yes - 3 Min Walk",
+"sort_order":1
+},
+{ 
+"unit_id":221,
+"amenity_id":6,
+"name":"Beach Distance",
+"description":"3 Minute Walk",
+"sort_order":2
+},
+{ 
+"unit_id":221,
+"amenity_id":7,
+"name":"Bed Size 1st/Master",
+"description":"King - En Suite Bath",
+"sort_order":7
+},
+{ 
+"unit_id":221,
+"amenity_id":8,
+"name":"Bed Size 2nd Rm",
+"description":"King - En Suite Bath",
+"sort_order":8
+},
+{ 
+"unit_id":221,
+"amenity_id":9,
+"name":"Bed Size 3rd Rm",
+"description":"King - En Suite Bath",
+"sort_order":9
+},
+{ 
+"unit_id":221,
+"amenity_id":10,
+"name":"Bed Size 4th Rm",
+"description":"King - En Suite Bath",
+"sort_order":10
+},
+{ 
+"unit_id":221,
+"amenity_id":14,
+"name":"Ceiling Fans",
+"description":"Yes",
+"sort_order":36
+},
+{ 
+"unit_id":221,
+"amenity_id":17,
+"name":"Elevator",
+"description":"Yes - ALL Floors",
+"sort_order":25
+},
+{ 
+"unit_id":221,
+"amenity_id":21,
+"name":"Floor No.",
+"description":"2 Living Levels",
+"sort_order":22
+},
+{ 
+"unit_id":221,
+"amenity_id":22,
+"name":"Internet Access",
+"description":"Yes",
+"sort_order":5
+},
+{ 
+"unit_id":221,
+"amenity_id":23,
+"name":"Micro/Dishwash/Disp.",
+"description":"Yes",
+"sort_order":32
+},
+{ 
+"unit_id":221,
+"amenity_id":24,
+"name":"Parking",
+"description":"4 Cars Max",
+"sort_order":21
+},
+{ 
+"unit_id":221,
+"amenity_id":26,
+"name":"Patio",
+"description":"Yes",
+"sort_order":26
+},
+{ 
+"unit_id":221,
+"amenity_id":28,
+"name":"Square Footage, Est.",
+"description":"3650",
+"sort_order":20
+},
+{ 
+"unit_id":221,
+"amenity_id":30,
+"name":"Stove/Oven Elec/Gas",
+"description":"Yes",
+"sort_order":31
+},
+{ 
+"unit_id":221,
+"amenity_id":31,
+"name":"TV Cable/Satellite",
+"description":"Yes",
+"sort_order":6
+},
+{ 
+"unit_id":221,
+"amenity_id":33,
+"name":"View",
+"description":"Canal",
+"sort_order":3
+},
+{ 
+"unit_id":221,
+"amenity_id":34,
+"name":"Washer/Dryer",
+"description":"Yes",
+"sort_order":29
+},
+{ 
+"unit_id":221,
+"amenity_id":35,
+"name":"Lanai",
+"description":"Yes",
+"sort_order":24
+},
+{ 
+"unit_id":221,
+"amenity_id":36,
+"name":"Full Kitchen",
+"description":"Yes",
+"sort_order":28
+},
+{ 
+"unit_id":221,
+"amenity_id":37,
+"name":"Microwave",
+"description":"Yes",
+"sort_order":33
+},
+{ 
+"unit_id":221,
+"amenity_id":38,
+"name":"Coffee Maker",
+"description":"Yes",
+"sort_order":34
+},
+{ 
+"unit_id":221,
+"amenity_id":39,
+"name":"Refrigerator",
+"description":"Yes",
+"sort_order":30
+},
+{ 
+"unit_id":221,
+"amenity_id":41,
+"name":"Pet Friendly",
+"description":"No",
+"sort_order":4
+},
+{ 
+"unit_id":221,
+"amenity_id":43,
+"name":"Water Front/Access",
+"description":"Yes",
+"sort_order":37
+},
+{ 
+"unit_id":221,
+"amenity_id":55,
+"name":"Pool View",
+"description":"Yes",
+"sort_order":39
+},
+{ 
+"unit_id":221,
+"amenity_id":56,
+"name":"Bathroom",
+"description":"4 Full/1 Half Bath",
+"sort_order":40
+},
+{ 
+"unit_id":221,
+"amenity_id":61,
+"name":"Free WiFi",
+"description":"Yes",
+"sort_order":44
+},
+{ 
+"unit_id":221,
+"amenity_id":67,
+"name":"Beach Equipment",
+"description":"Yes",
+"sort_order":50
+}]

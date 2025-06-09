@@ -42,7 +42,7 @@ Answer this question:
 """
 
     response = client.chat.completions.create(
-        model="gpt-4",
+        model="gpt-3.5-turbo",
         messages=[
             {"role": "system", "content": "Answer based on the property data provided."},
             {"role": "user", "content": prompt}
@@ -62,4 +62,4 @@ def chat():
     return jsonify({"answer": answer})
 
 if __name__ == "__main__":
-    app.run(port=5001)
+    app.run(host="0.0.0.0", port=5001)

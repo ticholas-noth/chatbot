@@ -1,4 +1,3 @@
-# chat_api.py
 from flask_cors import CORS
 from flask import Flask, request, jsonify
 import faiss
@@ -8,15 +7,15 @@ import os
 from openai import OpenAI
 from dotenv import load_dotenv
 
-# Load environment variables
+# openai api recommends the api key to be an env variable
 load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 app = Flask(__name__)
-CORS(app)  # Allow all origins by default
+CORS(app)  # Allow all origins by default for API
 
 
-# Load index and texts
+# Load index and texts generated from embed_data.py
 index = faiss.read_index("index.faiss")
 texts = pd.read_csv("texts.csv")
 
@@ -32,21 +31,22 @@ def ask_question(question):
     results = [texts.iloc[i]["text"] for i in I[0]]
 
     prompt = f"""
-You are a helpful assistant for vacation rentals.
-Here is some property data:
+            You are a helpful assistant for vacation rentals.
+            Here is some property data:
 
-{results[0]}
+            {results[0]}
 
-Answer this question:
-{question}
-"""
+            Answer this question:
+            {question}
+            """
 
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role": "system", "content": "You are a helpful assistant that answers questions about vacation rental properties using the provided context. Answer the question using only the context below. If it's not in the context, say I dont know, ask me about this property!"},
+            {"role": "system", "content": "You are a helpful assistant that answers questions about vacation rental properties using the provided context. Answer the question using only the context below. If it's not in the context, say I dont know, ask me about this property! If the question is about the property, but not in the context, say I am unsure of that. Please call 123-456-7890 for more information regarding your question."},
             {"role": "user", "content": prompt}
         ],
+        # value 0-2 that determines the focus level of the response. Higher number = more random. Lower number = deterministic
         temperature=0.3
     )
 

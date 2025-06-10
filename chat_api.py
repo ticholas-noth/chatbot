@@ -43,7 +43,7 @@ def ask_question(question):
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role": "system", "content": "You are a helpful assistant that answers questions about vacation rental properties using the provided context. Answer the question using only the context below. If it's not in the context, say I dont know, ask me about this property! If the question is about the property, but not in the context, say I am unsure of that. Please call 123-456-7890 for more information regarding your question."},
+            {"role": "system", "content": "You are a helpful assistant that answers questions about vacation rental properties using the provided context. Answer the question using only the context below. If it's not in the context, say I dont know, ask me about this property! If the question is about the property, but not in the context, say I am unsure of that - Please call 123-456-7890 for more information regarding your question."},
             {"role": "user", "content": prompt}
         ],
         # value 0-2 that determines the focus level of the response. Higher number = more random. Lower number = deterministic
